@@ -255,9 +255,13 @@ footer{
     justify-content: space-between;
     /* flex-grow: 3; */
     background-color: red;
+    
 }
 
-.footer-second-section{
+.footer-second-section, .footer-third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: orange;
     /* flex-grow: 1; */
 
@@ -273,9 +277,10 @@ footer{
     /* flex-grow: 2; */
 }
 
-.footer-second-class-list{
+.footer-second-class-list, .footer-third-class-list{
     display: flex;
     flex-direction: column;
+    margin: 1.6rem 0rem 0rem 0rem;
     list-style: none;
     align-content: space-between;
     justify-content: space-between;
